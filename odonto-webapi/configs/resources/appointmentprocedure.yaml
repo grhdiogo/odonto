@@ -1,0 +1,36 @@
+projectName: odonto
+type: "crud"
+prefix: "tb"
+endpoint: ""
+access: ""
+scheme: ""
+model:
+  access: "priv"
+  name: "appointment_procedure"
+  realname: ""
+  attributes:
+  - name: "aid"
+    type: "string"
+    length: 36
+  #   nullable: false
+  #   uk: false
+    pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "appointment_aid"
+    type: "string"
+    length: 36
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "procedure_pid"
+    type: "string"
+    length: 36
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""

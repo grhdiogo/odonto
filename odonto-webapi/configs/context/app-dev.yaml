@@ -1,0 +1,19 @@
+mode: dev
+project: 
+  name:odonto
+integrations:
+  slack:
+    channel: ""
+    token: ""
+databases:
+  - postgresql:
+      host: "localhost"
+      user: "postgres"
+      pswd: "root"
+      dbnm: "odonto"
+      port: "5432"
+connections:
+  maxOpenConns: 3
+  maxIdleConns: 1
+  connMaxIdleTime: 60   # seconds
+  connMaxLifetime: 600  # seconds      

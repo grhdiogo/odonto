@@ -1,0 +1,44 @@
+projectName: odonto
+type: "crud"
+prefix: "tb"
+endpoint: ""
+access: ""
+scheme: ""
+model:
+  access: "priv"
+  name: "procedure"
+  realname: ""
+  attributes:
+  - name: "pid"
+    type: "string"
+    length: 36
+  #   nullable: false
+  #   uk: false
+    pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "name"
+    type: "string"
+    length: 255
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "description"
+    type: "string"
+    length: 1024
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "default_value"
+    type: "decimal"
+    length: 1024
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""

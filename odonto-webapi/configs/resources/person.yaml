@@ -1,0 +1,57 @@
+projectName: odonto
+type: "crud"
+prefix: "tb"
+endpoint: ""
+access: ""
+scheme: ""
+model:
+  access: "priv"
+  name: "person"
+  realname: ""
+  attributes:
+  - name: "pid"
+    type: "string"
+    length: 36
+  #   nullable: false
+  #   uk: false
+    pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "name"
+    type: "string"
+    length: 255
+  #   nullable: false
+  #   uk: false
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  - name: "cpf"
+    type: "string"
+    length: 11
+  #   nullable: false
+  #   uk: false
+  #   pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  #   isTenant: true
+  - name: "email"
+    type: "string"
+    length: 50
+  #   nullable: false
+  #   uk: false
+  #   pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  #   isTenant: true
+  - name: "birthdate"
+    type: "timestamp"
+  #   nullable: false
+  #   uk: false
+  #   pk: true
+  #   fk: false
+  #   secret: false
+  #   relation: ""
+  #   isTenant: true

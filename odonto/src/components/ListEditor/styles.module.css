@@ -1,0 +1,10 @@
+.cardTabs {
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-bottom: 1px solid #dee2e6 ;
+}
+
+.cardTabsContent {
+  margin-top: 20px;
+}
